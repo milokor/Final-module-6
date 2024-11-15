@@ -123,11 +123,17 @@ const modal_burger = document.querySelector('.burger-menu')
 const body = document.querySelector('.body')
 const close = document.querySelector('.header-navigation__button-close')
 const show = document.querySelector('.modal--show')
+const burgerMenuContainer = document.querySelector('.burger-menu__container')
+
+const closeModalBurger = () => {
+  modal_burger.classList.remove('modal--show')
+  body.classList.remove('body-style')
+}
+
 document.addEventListener('click', (e) => {
-  let withinBoundaries = e.composedPath().includes(show)
+  let withinBoundaries = e.composedPath().includes(burgerMenuContainer)
   if (!withinBoundaries) {
-    modal_burger.classList.remove('modal--show')
-    body.classList.remove('body-style')
+    closeModalBurger()
   }
 })
 
@@ -138,14 +144,12 @@ burger_button.addEventListener('click', (e) => {
 })
 
 close.addEventListener('click', () => {
-  modal_burger.classList.remove('modal--show')
-  body.classList.remove('body-style')
+  closeModalBurger()
 })
 
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') {
-    modal_burger.classList.remove('modal--show')
-    body.classList.remove('body-style')
+    closeModalBurger()
   }
 })
 
