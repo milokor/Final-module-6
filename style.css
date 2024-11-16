@@ -1770,7 +1770,8 @@ h1 {
 
 @media (max-width: 320px) {
   .feedback-menu__container {
-    width: 330px; } }
+    width: 330px;
+    padding: 32px; } }
 
 .call-menu {
   display: none;
@@ -1879,7 +1880,8 @@ h1 {
 
 @media (max-width: 320px) {
   .call-menu__container {
-    width: 330px; } }
+    width: 330px;
+    padding: 32px; } }
 
 @font-face {
   font-family: 'TTLakes';
