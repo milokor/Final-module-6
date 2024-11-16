@@ -8,6 +8,7 @@
 .burger-menu__container {
   position: fixed;
   width: 290px;
+  height: 100%;
 }
 
 .header-navigation-menu {
@@ -72,7 +73,7 @@
 }
 
 .navigation-menu__list {
-  padding-bottom: 16px;
+  padding-bottom: 24px;
 }
 
 .description-container {
@@ -146,9 +147,9 @@
     box-shadow: 1rem 0 3.25rem 0 rgba(14, 24, 80, 0.2),
       -0.125rem 0 0.25rem 0 rgba(69, 79, 126, 0.02);
   }
-  .burger-menu__container {
-    width: 290px;
-  }
+  // .burger-menu__container {
+  //   width: 290px;
+  // }
 }
 
 @media (max-width: 360px) {

@@ -10,7 +10,7 @@
   flex-direction: column;
   box-shadow: 16px 0 52px 0 rgba(14, 24, 80, 0.2),
     -2px 0 4px 0 rgba(69, 79, 126, 0.02);
-  height: 100vw;
+  height: 100%;
   position: fixed;
   top: 0;
   right: 0;
@@ -30,6 +30,15 @@
   letter-spacing: -0.03em;
   color: #1b1c21;
   padding-bottom: 16px;
+  &::after {
+    content: '';
+    height: 40px;
+    width: 4px;
+    position: absolute;
+    border-radius: 2px;
+    background-color: #41f6d7;
+    left: 0;
+  }
 }
 
 .feedback-menu__input {
@@ -92,16 +101,6 @@
   color: #fff;
   padding: 10px;
   align-self: flex-end;
-  &::after {
-    content: '';
-    height: 40px;
-    width: 4px;
-    position: absolute;
-    border-radius: 2px;
-    background-color: #41f6d7;
-    top: 75px;
-    left: 0;
-  }
 }
 
 .feedback-menu__img {
