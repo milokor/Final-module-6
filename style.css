@@ -1768,6 +1768,14 @@ h1 {
   .feedback-menu__container {
     max-width: 440px; } }
 
+@media (max-width: 360px) {
+  .feedback-menu__container {
+    width: 360px; } }
+
+@media (max-width: 320px) {
+  .feedback-menu__container {
+    width: 330px; } }
+
 .call-menu {
   display: none;
   position: fixed;
@@ -1872,6 +1880,14 @@ h1 {
 @media (min-width: 768px) {
   .call-menu__container {
     max-width: 440px; } }
+
+@media (max-width: 360px) {
+  .call-menu__container {
+    width: 360px; } }
+
+@media (max-width: 320px) {
+  .call-menu__container {
+    width: 330px; } }
 
 @font-face {
   font-family: 'TTLakes';
