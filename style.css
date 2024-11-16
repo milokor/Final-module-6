@@ -1760,10 +1760,6 @@ h1 {
   display: flex;
   padding-bottom: 25px; }
 
-@media (min-width: 320px) {
-  .feedback-menu__container {
-    max-width: 320px; } }
-
 @media (min-width: 768px) {
   .feedback-menu__container {
     max-width: 440px; } }
@@ -1872,10 +1868,6 @@ h1 {
 .call-close {
   display: flex;
   padding-bottom: 25px; }
-
-@media (min-width: 320px) {
-  .call-menu__container {
-    max-width: 320px; } }
 
 @media (min-width: 768px) {
   .call-menu__container {
