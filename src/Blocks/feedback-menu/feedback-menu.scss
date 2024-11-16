@@ -121,3 +121,14 @@
     max-width: 440px;
   }
 }
+
+@media (max-width: 360px) {
+  .feedback-menu__container {
+    width: 360px;
+  }
+}
+@media (max-width: 320px) {
+  .feedback-menu__container {
+    width: 330px;
+  }
+}
