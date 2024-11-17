@@ -7,7 +7,7 @@
 
 .burger-menu__container {
   position: fixed;
-  width: 290px;
+  max-width: 290px;
   height: 100%;
 }
 
@@ -176,6 +176,15 @@
   }
   .description-footer {
     margin-top: auto;
+  }
+  .burger-menu__container {
+    width: 240px;
+  }
+}
+
+@media (min-width: 1430px) {
+  .burger-menu__container {
+    width: 290px;
   }
 }
 
